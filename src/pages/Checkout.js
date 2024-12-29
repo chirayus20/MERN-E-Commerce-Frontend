@@ -1,48 +1,48 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const products = [
   {
     id: 1,
-    name: 'Throwback Hip Bag',
-    href: '#',
-    color: 'Salmon',
-    price: '₹90.00',
+    name: "Throwback Hip Bag",
+    href: "#",
+    color: "Salmon",
+    price: "₹90.00",
     quantity: 1,
     imageSrc:
-      'https://tailwindui.com/plus/img/ecommerce-images/shopping-cart-page-04-product-01.jpg',
+      "https://tailwindui.com/plus/img/ecommerce-images/shopping-cart-page-04-product-01.jpg",
     imageAlt:
-      'Salmon orange fabric pouch with match zipper, gray zipper pull, and adjustable hip belt.',
+      "Salmon orange fabric pouch with match zipper, gray zipper pull, and adjustable hip belt.",
   },
   {
     id: 2,
-    name: 'Medium Stuff Satchel',
-    href: '#',
-    color: 'Blue',
-    price: '₹32.00',
+    name: "Medium Stuff Satchel",
+    href: "#",
+    color: "Blue",
+    price: "₹32.00",
     quantity: 1,
     imageSrc:
-      'https://tailwindui.com/plus/img/ecommerce-images/shopping-cart-page-04-product-02.jpg',
+      "https://tailwindui.com/plus/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
     imageAlt:
-      'Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.',
+      "Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.",
   },
   // More products...
 ];
 
 const addresses = [
   {
-    name: 'John wick',
-    street: '11th Main',
-    city: 'Delhi',
+    name: "John wick",
+    street: "11th Main",
+    city: "Delhi",
     pinCode: 110001,
-    state: 'Delhi',
+    state: "Delhi",
     phone: 12312321331,
   },
   {
-    name: 'John Doe',
-    street: '15th Main',
-    city: 'Bangalore',
+    name: "John Doe",
+    street: "15th Main",
+    city: "Bangalore",
     pinCode: 560034,
-    state: 'Karnataka',
+    state: "Karnataka",
     phone: 123123123,
   },
 ];
@@ -212,23 +212,23 @@ function Checkout() {
               </div>
 
               <div className="mt-6 flex items-center justify-end gap-x-6">
-              <button
-                type="button"
-                className="text-sm font-semibold leading-6 text-gray-900"
-              >
-                Reset
-              </button>
-              <button
-                type="submit"
-                className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
-                Add Address
-              </button>
-            </div>
+                <button
+                  type="button"
+                  className="text-sm font-semibold leading-6 text-gray-900"
+                >
+                  Reset
+                </button>
+                <button
+                  type="submit"
+                  className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                >
+                  Add Address
+                </button>
+              </div>
 
               <div className="border-b border-gray-900/10 pb-12">
                 <h2 className="text-base font-semibold leading-7 text-gray-900">
-                Addresses
+                  Addresses
                 </h2>
                 <p className="mt-1 text-sm leading-6 text-gray-600">
                   Choose from Existing addresses
@@ -292,6 +292,22 @@ function Checkout() {
                           Cash
                         </label>
                       </div>
+
+                      <div className="flex items-center gap-x-3">
+                        <input
+                          id="cash"
+                          name="payments"
+                          type="radio"
+                          className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
+                        />
+                        <label
+                          htmlFor="UPI"
+                          className="block text-sm font-medium leading-6 text-gray-900"
+                        >
+                          UPI Payment
+                        </label>
+                      </div>
+
                       <div className="flex items-center gap-x-3">
                         <input
                           id="card"
@@ -311,8 +327,6 @@ function Checkout() {
                 </div>
               </div>
             </div>
-
-          
           </form>
         </div>
         <div className="lg:col-span-2">
