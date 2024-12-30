@@ -112,10 +112,9 @@ export default function ProductList() {
     dispatch(fetchProductsByFiltersAsync({ filter, sort, pagination }));
   }, [dispatch, filter, sort, page]);
 
-
-  useEffect(()=>{
-    setPage(1)
-  },[totalItems,sort])
+  useEffect(() => {
+    setPage(1);
+  }, [totalItems, sort]);
 
   return (
     <div className="bg-white">
