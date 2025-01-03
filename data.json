@@ -483,7 +483,8 @@
       "category": "women",
       "thumbnail": "https://img.freepik.com/premium-photo/woman-yellow-shirt-with-word-love-it_873925-155207.jpg?size=626&ext=jpg&ga=GA1.2.453157835.1694346094&semt=ais",
       "rating": 4,
-      "stock": 1
+      "stock": 1,
+      "brand": "Fashionista"
     },
     {
       "id": "42",
@@ -494,7 +495,8 @@
       "category": "men",
       "thumbnail": "https://images.pexels.com/photos/983497/pexels-photo-983497.jpeg?auto=compress&cs=tinysrgb&w=600",
       "rating": 3,
-      "stock": 1
+      "stock": 1,
+      "brand": "UrbanWear"
     },
     {
       "id": "43",
@@ -505,7 +507,8 @@
       "category": "women",
       "thumbnail": "https://images.pexels.com/photos/3672825/pexels-photo-3672825.jpeg?auto=compress&cs=tinysrgb&w=600",
       "rating": 4,
-      "stock": 1
+      "stock": 1,
+      "brand": "Fashionista"
     },
     {
       "id": "44",
@@ -516,7 +519,8 @@
       "category": "kids",
       "thumbnail": "https://img.freepik.com/free-photo/small-girl-stands-near-table_8353-5344.jpg?size=626&ext=jpg&ga=GA1.2.453157835.1694346094&semt=ais",
       "rating": 2,
-      "stock": 1
+      "stock": 1,
+      "brand": "LittleOnes"
     },
     {
       "id": "45",
@@ -527,7 +531,8 @@
       "category": "women",
       "thumbnail": "https://images.pexels.com/photos/2738792/pexels-photo-2738792.jpeg?auto=compress&cs=tinysrgb&w=600",
       "rating": 4,
-      "stock": 1
+      "stock": 1,
+      "brand": "Fashionista"
     },
     {
       "id": "46",
@@ -538,7 +543,8 @@
       "category": "men",
       "thumbnail": "https://images.pexels.com/photos/2866077/pexels-photo-2866077.jpeg?auto=compress&cs=tinysrgb&w=600",
       "rating": 4,
-      "stock": 1
+      "stock": 1,
+      "brand": "UrbanWear"
     },
     {
       "id": "47",
@@ -549,7 +555,8 @@
       "category": "women",
       "thumbnail": "https://images.pexels.com/photos/2010925/pexels-photo-2010925.jpeg?auto=compress&cs=tinysrgb&w=600",
       "rating": 3,
-      "stock": 1
+      "stock": 1,
+      "brand": "Fashionista"
     },
     {
       "id": "48",
@@ -560,7 +567,8 @@
       "category": "women",
       "thumbnail": "https://images.pexels.com/photos/3054973/pexels-photo-3054973.jpeg?auto=compress&cs=tinysrgb&w=600",
       "rating": 4,
-      "stock": 1
+      "stock": 1,
+      "brand": "Fashionista"
     },
     {
       "id": "49",
@@ -571,7 +579,8 @@
       "category": "women",
       "thumbnail": "https://images.pexels.com/photos/2693849/pexels-photo-2693849.jpeg?auto=compress&cs=tinysrgb&w=600",
       "rating": 3,
-      "stock": 1
+      "stock": 1,
+      "brand": "Fashionista"
     },
     {
       "id": "50",
@@ -582,8 +591,186 @@
       "category": "women",
       "thumbnail": "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=600",
       "rating": 5,
-      "stock": 1
+      "stock": 1,
+      "brand": "UrbanWear"
     }
+  ],
+
+  "brands": [
+     
+      {
+        "value": "Apple",
+        "label": "Apple",
+        "checked": false
+      },
+      {
+        "value": "levi's",
+        "label": "levi's",
+        "checked": false
+      },
+      {
+        "value": "Allen Solly",
+        "label": "Allen Solly",
+        "checked": false
+      },
+      {
+        "value": "RedTape",
+        "label": "RedTape",
+        "checked": false
+      },
+      {
+        "value": "Leisure Series",
+        "label": "Leisure Series",
+        "checked": false
+      },
+      {
+        "value": "Pigeon",
+        "label": "Pigeon",
+        "checked": false
+      },
+      {
+        "value": "Titan",
+        "label": "Titan",
+        "checked": false
+      },
+      {
+        "value": "boAt",
+        "label": "boAt",
+        "checked": false
+      },
+      {
+        "value": "Noise",
+        "label": "Noise",
+        "checked": false
+      },
+      {
+        "value": "Lenovo",
+        "label": "Lenovo",
+        "checked": false
+      },
+      {
+        "value": "BELLAVITA",
+        "label": "BELLAVITA",
+        "checked": false
+      },
+      {
+        "value": "Cetaphil",
+        "label": "Cetaphil",
+        "checked": false
+      },
+      {
+        "value": "Global Grabbers",
+        "label": "Global Grabbers",
+        "checked": false
+      },
+      {
+        "value": "Samsung",
+        "label": "Samsung",
+        "checked": false
+      },
+      {
+        "value": "Sony",
+        "label": "Sony",
+        "checked": false
+      },
+      {
+        "value": "Logitech",
+        "label": "Logitech",
+        "checked": false
+      },
+      {
+        "value": "Razer",
+        "label": "Razer",
+        "checked": false
+      },
+      {
+        "value": "JBL",
+        "label": "JBL",
+        "checked": false
+      },
+      {
+        "value": "Philips",
+        "label": "Philips",
+        "checked": false
+      },
+      {
+        "value": "Ather",
+        "label": "Ather",
+        "checked": false
+      },
+      {
+        "value": "Decathlon",
+        "label": "Decathlon",
+        "checked": false
+      },
+      {
+        "value": "Amazfit",
+        "label": "Amazfit",
+        "checked": false
+      },
+      {
+        "value": "HyperX",
+        "label": "HyperX",
+        "checked": false
+      },
+      {
+        "value": "Victorinox",
+        "label": "Victorinox",
+        "checked": false
+      },
+      {
+        "value": "Canon",
+        "label": "Canon",
+        "checked": false
+      }
+    ],
+  
+  "categories": [
     
-  ]
+      {
+        "value": "smartphones",
+        "label": "Smartphones",
+        "checked": false
+      },
+      {
+        "value": "laptops",
+        "label": "Laptops",
+        "checked": false
+      },
+      {
+        "value": "fragrances",
+        "label": "Fragrances",
+        "checked": false
+      },
+      {
+        "value": "skincare",
+        "label": "Skincare",
+        "checked": false
+      },
+      {
+        "value": "groceries",
+        "label": "Groceries",
+        "checked": false
+      },
+      {
+        "value": "home-decoration",
+        "label": "Home decoration",
+        "checked": false
+      },
+      {
+        "value": "furniture",
+        "label": "Furniture",
+        "checked": false
+      },
+      {
+        "value": "men",
+        "label": "Men T-shirt",
+        "checked": false
+      },
+      {
+        "value": "women",
+        "label": "Women T-shirt",
+        "checked": false
+      }
+    ]
 }
