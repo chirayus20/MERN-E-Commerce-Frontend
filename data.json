@@ -811,7 +811,6 @@
       ]
     }
   ],
-
   "brands": [
     {
       "value": "Apple",
@@ -939,7 +938,6 @@
       "checked": false
     }
   ],
-
   "categories": [
     {
       "value": "smartphones",
@@ -985,6 +983,23 @@
       "value": "women",
       "label": "Women T-shirt",
       "checked": false
+    }
+  ],
+  "users": [
+    {
+      "email": "test@gmail.com",
+      "password": "As@12345",
+      "id": 1
+    },
+    {
+      "email": "test20@gmail.com",
+      "password": "As@12345",
+      "id": 2
+    },
+    {
+      "email": "demo@gmail.com",
+      "password": "Az@12345",
+      "id": 3
     }
   ]
 }
