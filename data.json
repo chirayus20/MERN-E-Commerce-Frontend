@@ -1000,6 +1000,113 @@
       "email": "demo@gmail.com",
       "password": "Az@12345",
       "id": 3
+    },
+    {
+      "email": "testcase1@gmail.com",
+      "password": "Test@1234",
+      "id": 4
+    }
+  ],
+  "cart": [
+    {
+      "id": "2",
+      "title": "iPhone 16",
+      "description": "An apple mobile which is nothing like apple",
+      "price": 89900,
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "brand": "Apple",
+      "category": "smartphones",
+      "thumbnail": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone16hero-202409?wid=680&hei=528&fmt=p-jpg&qlt=95&.v=1723234230295",
+      "images": [
+        "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone16hero-202409?wid=680&hei=528&fmt=p-jpg&qlt=95&.v=1723234230295",
+        "https://m.media-amazon.com/images/I/61ThmxwUZCL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71708U5mylL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/51kHsujlHZL._SL1500_.jpg"
+      ],
+      "quantity": 2,
+      "user": 1
+    },
+    {
+      "id": "4",
+      "title": "Mens T-shirt",
+      "description": "Luxurious Organic Cotton T-Shirt",
+      "price": 1299,
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "brand": "levi's",
+      "category": "men",
+      "thumbnail": "https://tailwindui.com/plus/img/ecommerce-images/product-quick-preview-02-detail.jpg",
+      "images": [
+        "https://tailwindui.com/plus/img/ecommerce-images/product-page-02-featured-product-shot.jpg",
+        "https://tailwindui.com/plus/img/ecommerce-images/product-page-02-tertiary-product-shot-01.jpg",
+        "https://tailwindui.com/plus/img/ecommerce-images/product-page-02-tertiary-product-shot-02.jpg",
+        "https://tailwindui.com/plus/img/ecommerce-images/product-page-02-secondary-product-shot.jpg"
+      ],
+      "quantity": 4,
+      "user": 1
+    },
+    {
+      "id": "3",
+      "title": "MacBook Air",
+      "description": "2022 Apple MacBook Air Laptop with M2 chip: 13.6-inch Liquid Retina Display, 16GB RAM, 256GB SSD",
+      "price": 93990,
+      "discountPercentage": 9.8,
+      "rating": 4.6,
+      "stock": 55,
+      "brand": "Apple",
+      "category": "laptops",
+      "thumbnail": "https://m.media-amazon.com/images/I/710TJuHTMhL._SL1500_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61b5Q8Uk86L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/716FD22FGDL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61ST7uM4vpL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81SjldAN4ZL._SL1500_.jpg"
+      ],
+      "quantity": 1,
+      "user": 1
+    },
+    {
+      "id": "6",
+      "title": "Jeans",
+      "description": "Luxurious Organic Cotton Jeans",
+      "price": 1399,
+      "discountPercentage": 9.8,
+      "rating": 4.6,
+      "stock": 55,
+      "brand": "Allen Solly",
+      "category": "men",
+      "thumbnail": "https://m.media-amazon.com/images/I/51E9bfHcO6L._SX679_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/51E9bfHcO6L._SX679_.jpg",
+        "https://m.media-amazon.com/images/I/81NLsDVroaL._SX679_.jpg",
+        "https://m.media-amazon.com/images/I/715b2BL5XhL._SX679_.jpg",
+        "https://m.media-amazon.com/images/I/61ou-A4V6ZL._SX679_.jpg"
+      ],
+      "quantity": 1,
+      "user": 1
+    },
+    {
+      "id": "1",
+      "title": "iPhone 16 Pro Max",
+      "description": "An apple mobile which is nothing like apple",
+      "price": 139900,
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "brand": "Apple",
+      "category": "smartphones",
+      "thumbnail": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone16prohero-202409?wid=680&hei=528&fmt=p-jpg&qlt=95&.v=1725567335931",
+      "images": [
+        "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone16prohero-202409?wid=680&hei=528&fmt=p-jpg&qlt=95&.v=1725567335931",
+        "https://m.media-amazon.com/images/I/71ta3jyFvIL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81KoYONBafL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61+0gHhq1rL._SL1500_.jpg"
+      ],
+      "quantity": 1,
+      "user": 2
     }
   ]
 }
