@@ -1,14 +1,16 @@
-import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
+import { createAsyncThunk, createSlice, current } from '@reduxjs/toolkit';
 import { createOrder } from './orderAPI';
 
 
 const initialState = {
   orders: [],
   status: 'idle',
+  currentOrder:null
 };
+//we may need more info of current order
 
-export const createOrderAsync = createAsyncThunk(
-  'counter/createOrder',
+export const createOrderAsync = createAsyncThunk( 
+  'order/createOrder',
   async (order) => {
     const response = await createOrder(order);
     // The value we return becomes the `fulfilled` action payload
@@ -17,7 +19,7 @@ export const createOrderAsync = createAsyncThunk(
 );
 
 
-export const counterSlice = createSlice({
+export const ordersSlice = createSlice({
   name: 'order',
   initialState,
   reducers: {
@@ -33,12 +35,13 @@ export const counterSlice = createSlice({
       .addCase(createOrderAsync.fulfilled, (state, action) => {
         state.status = 'idle';
         state.orders.push(action.payload);
+        // state.currentOrder = action.payload;
       });
   },
 });
 
-export const { increment } = counterSlice.actions;
+export const { increment } = ordersSlice.actions;
 
-// export const selectCount = (state) => state.counter.value;
+export const selectCurrentOrder = (state) => state.order.currentOrder;
 
-export default counterSlice.reducer;
+export default ordersSlice.reducer;
