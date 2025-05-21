@@ -14,18 +14,21 @@ import Cart from "./features/cart/Cart";
 import CartPage from "./pages/CartPage";
 import Checkout from "./pages/Checkout";
 import ProductDetailPage from "./pages/ProductDetailPage";
-import Producted from "./features/auth/components/Protected";
+import PageNotFound from "./pages/404";
+import OrderSuccessPage from "./pages/OrderSuccessPage";
+import Protected from "./features/auth/components/Protected";
 import { useEffect } from "react";
 import { fetchItemsByUserIdAsync } from "./features/cart/cartSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { selectLoggedInUser } from "./features/auth/authSlice";
+import UserOrdersPage from "./pages/userOrdersPage";
 const router = createBrowserRouter([
   {
     path: "/",
     element: (
-      <Producted>
+      <Protected>
         <Home></Home>
-      </Producted>
+      </Protected>
     ),
   },
   {
@@ -40,27 +43,44 @@ const router = createBrowserRouter([
   {
     path: "/cart",
     element: (
-      <Producted>
+      <Protected>
         <CartPage></CartPage>
-      </Producted>
+      </Protected>
     ),
   },
   {
     path: "/checkout",
     element: (
-      <Producted>
+      <Protected>
         <Checkout></Checkout>
-      </Producted>
+      </Protected>
     ),
   },
   {
     path: "/product-detail/:id",
     element: (
-      <Producted>
+      <Protected>
         <ProductDetailPage></ProductDetailPage>
-      </Producted>
+      </Protected>
     ),
-  },  
+  },
+
+  {
+    path: "/order-success/:id",
+    element: <OrderSuccessPage></OrderSuccessPage>,
+  },
+
+  {
+    path: "/orders",
+    element:(<UserOrdersPage></UserOrdersPage>),
+    // we will add page later right now using components directly.
+  },
+
+  // Navigate 404 page.
+  {
+    path: "*",
+    element: <PageNotFound></PageNotFound>,
+  },
 ]);
 
 function App() {
@@ -71,7 +91,7 @@ function App() {
     if (user) {
       dispatch(fetchItemsByUserIdAsync(user.id));
     }
-  }, [dispatch,user]);
+  }, [dispatch, user]);
 
   return (
     <div className="App">

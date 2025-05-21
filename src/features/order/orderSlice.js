@@ -23,9 +23,10 @@ export const ordersSlice = createSlice({
   name: 'order',
   initialState,
   reducers: {
-    increment: (state) => {
-      state.value += 1;
-    },
+    resetOrder:(state)=>{
+        state.currentOrder = null;
+
+    }
   },
   extraReducers: (builder) => {
     builder
@@ -35,12 +36,12 @@ export const ordersSlice = createSlice({
       .addCase(createOrderAsync.fulfilled, (state, action) => {
         state.status = 'idle';
         state.orders.push(action.payload);
-        // state.currentOrder = action.payload;
+        state.currentOrder = action.payload;
       });
   },
 });
 
-export const { increment } = ordersSlice.actions;
+export const { resetOrder } = ordersSlice.actions;
 
 export const selectCurrentOrder = (state) => state.order.currentOrder;
 

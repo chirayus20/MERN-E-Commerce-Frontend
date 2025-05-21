@@ -1,8 +1,14 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { addToCart, deleteItemFromCart, fetchItemsByUserId, updateCart } from "./cartAPI";
+import {
+  addToCart,
+  deleteItemFromCart,
+  fetchItemsByUserId,
+  resetCart,
+  updateCart,
+} from "./cartAPI";
 
 const initialState = {
-  status: 'idle',
+  status: "idle",
   items: [],
 };
 
@@ -24,7 +30,6 @@ export const fetchItemsByUserIdAsync = createAsyncThunk(
   }
 );
 
-
 export const updateCartAsync = createAsyncThunk(
   "cart/updateCart",
   async (update) => {
@@ -34,11 +39,19 @@ export const updateCartAsync = createAsyncThunk(
   }
 );
 
-
 export const deleteItemFromCartAsync = createAsyncThunk(
   "cart/deleteItemFromCart",
   async (itemId) => {
     const response = await deleteItemFromCart(itemId);
+    // The value we return becomes the `fulfilled` action payload
+    return response.data;
+  }
+);
+
+export const resetCartAsync = createAsyncThunk(
+  "cart/resetCart",
+  async (userId) => {
+    const response = await resetCart(userId);
     // The value we return becomes the `fulfilled` action payload
     return response.data;
   }
@@ -73,7 +86,9 @@ export const counterSlice = createSlice({
       })
       .addCase(updateCartAsync.fulfilled, (state, action) => {
         state.status = "idle";
-        const index = state.items.findIndex(item=>item.id===action.payload.id)
+        const index = state.items.findIndex(
+          (item) => item.id === action.payload.id
+        );
         state.items[index] = action.payload;
       })
       .addCase(deleteItemFromCartAsync.pending, (state) => {
@@ -81,8 +96,18 @@ export const counterSlice = createSlice({
       })
       .addCase(deleteItemFromCartAsync.fulfilled, (state, action) => {
         state.status = "idle";
-        const index = state.items.findIndex(item=>item.id===action.payload.id)
-        state.items.splice(index,1);
+        const index = state.items.findIndex(
+          (item) => item.id === action.payload.id
+        );
+        state.items.splice(index, 1);
+      })
+
+      .addCase(resetCartAsync.pending, (state) => {
+        state.status = "loading";
+      })
+      .addCase(resetCartAsync.fulfilled, (state, action) => {
+        state.status = "idle";
+        state.items = [];
       });
   },
 });
