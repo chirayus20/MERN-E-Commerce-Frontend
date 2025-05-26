@@ -21,7 +21,11 @@ import { useEffect } from "react";
 import { fetchItemsByUserIdAsync } from "./features/cart/cartSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { selectLoggedInUser } from "./features/auth/authSlice";
-import UserOrdersPage from "./pages/userOrdersPage";
+import UserOrdersPage from "./pages/UserOrdersPage";
+import UserProfilePage from "./pages/UserProfilePage";
+import { fetchLoggedInUserAsync } from "./features/user/userSlice";
+
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -75,6 +79,11 @@ const router = createBrowserRouter([
     element:(<UserOrdersPage></UserOrdersPage>),
     // we will add page later right now using components directly.
   },
+  {
+    path: "/profile",
+    element:(<UserProfilePage></UserProfilePage>),
+    // we will add page later right now using components directly.
+  },
 
   // Navigate 404 page.
   {
@@ -90,6 +99,7 @@ function App() {
   useEffect(() => {
     if (user) {
       dispatch(fetchItemsByUserIdAsync(user.id));
+      dispatch(fetchLoggedInUserAsync(user.id))
     }
   }, [dispatch, user]);
 

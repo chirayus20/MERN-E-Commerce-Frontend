@@ -991,22 +991,22 @@
       "password": "As@12345",
       "addresses": [
         {
-          "name": "Rahuk S",
-          "email": "test@gmail.com",
-          "phone": "09000000570",
-          "street": "Telephone Nagar",
-          "city": "Indore",
+          "name": "Jay",
+          "email": "jay@gmail.com",
+          "phone": "09000000560",
+          "street": "MP Nagar zone 1",
+          "city": "Bhopal",
           "state": "Madhya Pradesh",
-          "pinCode": "452016"
+          "pinCode": "452010"
         },
         {
-          "name": "test",
-          "email": "test@gmail.com",
-          "phone": "09000000570",
-          "street": "Telephone Nagar",
-          "city": "Indore",
-          "state": "Madhya Pradesh",
-          "pinCode": "452016"
+          "name": "Jarrys",
+          "email": "Jys@gmail.com",
+          "phone": "9495549390",
+          "street": "New Height Area 12th cross",
+          "city": "Bangalore",
+          "state": "Karnataka",
+          "pinCode": "560002"
         }
       ],
       "id": 1
@@ -1173,6 +1173,195 @@
       },
       "status": "Pending",
       "id": 2
+    },
+    {
+      "items": [
+        {
+          "title": "Beg",
+          "description": "A high-quality product.",
+          "price": 3999,
+          "discountPercentage": 9.8,
+          "rating": 4.6,
+          "stock": 55,
+          "brand": "Leisure Series",
+          "category": "beg",
+          "thumbnail": "https://m.media-amazon.com/images/I/61o3NqZ+13L._SX679_.jpg",
+          "images": [
+            "https://m.media-amazon.com/images/I/61o3NqZ+13L._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/91P-JH+PnXL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71Y4CX865BL._SY879_.jpg",
+            "https://m.media-amazon.com/images/I/71zaICd0iCL._SY879_.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 3999,
+      "totalItems": 1,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "As@12345",
+        "addresses": [
+          {
+            "name": "Rahuk S",
+            "email": "test@gmail.com",
+            "phone": "09000000570",
+            "street": "Telephone Nagar",
+            "city": "Indore",
+            "state": "Madhya Pradesh",
+            "pinCode": "452016"
+          },
+          {
+            "name": "test",
+            "email": "test@gmail.com",
+            "phone": "09000000570",
+            "street": "Telephone Nagar",
+            "city": "Indore",
+            "state": "Madhya Pradesh",
+            "pinCode": "452016"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Rahuk S",
+        "email": "test@gmail.com",
+        "phone": "09000000570",
+        "street": "Telephone Nagar",
+        "city": "Indore",
+        "state": "Madhya Pradesh",
+        "pinCode": "452016"
+      },
+      "status": "Pending",
+      "id": 3
+    },
+    {
+      "items": [
+        {
+          "title": "iPhone 16 Pro Max",
+          "description": "An apple mobile which is nothing like apple",
+          "price": 139900,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone16prohero-202409?wid=680&hei=528&fmt=p-jpg&qlt=95&.v=1725567335931",
+          "images": [
+            "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone16prohero-202409?wid=680&hei=528&fmt=p-jpg&qlt=95&.v=1725567335931",
+            "https://m.media-amazon.com/images/I/71ta3jyFvIL._SL1500_.jpg",
+            "https://m.media-amazon.com/images/I/81KoYONBafL._SL1500_.jpg",
+            "https://m.media-amazon.com/images/I/61+0gHhq1rL._SL1500_.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 139900,
+      "totalItems": 1,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "As@12345",
+        "addresses": [
+          {
+            "name": "Rahuk S",
+            "email": "test@gmail.com",
+            "phone": "09000000570",
+            "street": "Telephone Nagar",
+            "city": "Indore",
+            "state": "Madhya Pradesh",
+            "pinCode": "452016"
+          },
+          {
+            "name": "test",
+            "email": "test@gmail.com",
+            "phone": "09000000570",
+            "street": "Telephone Nagar",
+            "city": "Indore",
+            "state": "Madhya Pradesh",
+            "pinCode": "452016"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "test",
+        "email": "test@gmail.com",
+        "phone": "09000000570",
+        "street": "Telephone Nagar",
+        "city": "Indore",
+        "state": "Madhya Pradesh",
+        "pinCode": "452016"
+      },
+      "status": "Pending",
+      "id": 4
+    },
+    {
+      "items": [
+        {
+          "title": "Titan-Watch",
+          "description": "A popular product.",
+          "price": 5999,
+          "discountPercentage": 10.5,
+          "rating": 4.5,
+          "stock": 81,
+          "brand": "Titan",
+          "category": "watch",
+          "thumbnail": "https://m.media-amazon.com/images/I/51ebuir2M-L._SX679_.jpg",
+          "images": [
+            "https://m.media-amazon.com/images/I/51ebuir2M-L._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51riuEcimPL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/419lEekVN0L._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51PTWa9y9LL._SX679_.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 5999,
+      "totalItems": 1,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "As@12345",
+        "addresses": [
+          {
+            "name": "Jay",
+            "email": "jay@gmail.com",
+            "phone": "09000000560",
+            "street": "MP Nagar zone 1",
+            "city": "Bhopal",
+            "state": "Madhya Pradesh",
+            "pinCode": "452010"
+          },
+          {
+            "name": "Jarrys",
+            "email": "Jys@gmail.com",
+            "phone": "9495549390",
+            "street": "New Height Area 12th cross",
+            "city": "Bangalore",
+            "state": "Karnataka",
+            "pinCode": "560002"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Jarrys",
+        "email": "Jys@gmail.com",
+        "phone": "9495549390",
+        "street": "New Height Area 12th cross",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pinCode": "560002"
+      },
+      "status": "Pending",
+      "id": 5
     }
   ]
 }
