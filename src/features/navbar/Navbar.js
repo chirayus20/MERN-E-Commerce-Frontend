@@ -22,7 +22,7 @@ const navigation = [
 const userNavigation = [
   { name: "My Profile", link: "/profile" },
   { name: "My Orders", link: "/orders" },
-  { name: "Sign out", link: "/login" },
+  { name: "Sign out", link: "/logout" },
 ];
 
 function classNames(...classes) {
@@ -47,7 +47,7 @@ function NavBar({ children }) {
                       <Link to="/">
                         <img
                           className="h-8 w-8"
-                          src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
+                          src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
                           alt="Your Company"
                         />
                       </Link>

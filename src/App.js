@@ -24,7 +24,8 @@ import { selectLoggedInUser } from "./features/auth/authSlice";
 import UserOrdersPage from "./pages/UserOrdersPage";
 import UserProfilePage from "./pages/UserProfilePage";
 import { fetchLoggedInUserAsync } from "./features/user/userSlice";
-
+import Logout from "./features/auth/components/Logout";
+import ForgotPassword from "./features/auth/components/ForgotPassword";
 
 const router = createBrowserRouter([
   {
@@ -76,13 +77,23 @@ const router = createBrowserRouter([
 
   {
     path: "/orders",
-    element:(<UserOrdersPage></UserOrdersPage>),
+    element: <UserOrdersPage></UserOrdersPage>,
     // we will add page later right now using components directly.
   },
   {
     path: "/profile",
-    element:(<UserProfilePage></UserProfilePage>),
-    // we will add page later right now using components directly.
+    element: <UserProfilePage></UserProfilePage>,
+   
+  },
+
+  {
+    path: "/logout",
+    element: <Logout></Logout>,
+  },
+
+  {
+    path: "/forgot-password",
+    element: <ForgotPassword></ForgotPassword>,
   },
 
   // Navigate 404 page.
@@ -99,7 +110,7 @@ function App() {
   useEffect(() => {
     if (user) {
       dispatch(fetchItemsByUserIdAsync(user.id));
-      dispatch(fetchLoggedInUserAsync(user.id))
+      dispatch(fetchLoggedInUserAsync(user.id));
     }
   }, [dispatch, user]);
 

@@ -1362,6 +1362,132 @@
       },
       "status": "Pending",
       "id": 5
+    },
+    {
+      "items": [
+        {
+          "title": "Jeans",
+          "description": "Luxurious Organic Cotton Jeans",
+          "price": 1399,
+          "discountPercentage": 9.8,
+          "rating": 4.6,
+          "stock": 55,
+          "brand": "Allen Solly",
+          "category": "men",
+          "thumbnail": "https://m.media-amazon.com/images/I/51E9bfHcO6L._SX679_.jpg",
+          "images": [
+            "https://m.media-amazon.com/images/I/51E9bfHcO6L._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/81NLsDVroaL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/715b2BL5XhL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/61ou-A4V6ZL._SX679_.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 1399,
+      "totalItems": 1,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "As@12345",
+        "addresses": [
+          {
+            "name": "Jay",
+            "email": "jay@gmail.com",
+            "phone": "09000000560",
+            "street": "MP Nagar zone 1",
+            "city": "Bhopal",
+            "state": "Madhya Pradesh",
+            "pinCode": "452010"
+          },
+          {
+            "name": "Jarrys",
+            "email": "Jys@gmail.com",
+            "phone": "9495549390",
+            "street": "New Height Area 12th cross",
+            "city": "Bangalore",
+            "state": "Karnataka",
+            "pinCode": "560002"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Jarrys",
+        "email": "Jys@gmail.com",
+        "phone": "9495549390",
+        "street": "New Height Area 12th cross",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pinCode": "560002"
+      },
+      "status": "Pending",
+      "id": 6
+    },
+    {
+      "items": [
+        {
+          "title": "Titan-Watch",
+          "description": "A popular product.",
+          "price": 5999,
+          "discountPercentage": 10.5,
+          "rating": 4.5,
+          "stock": 81,
+          "brand": "Titan",
+          "category": "watch",
+          "thumbnail": "https://m.media-amazon.com/images/I/51ebuir2M-L._SX679_.jpg",
+          "images": [
+            "https://m.media-amazon.com/images/I/51ebuir2M-L._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51riuEcimPL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/419lEekVN0L._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51PTWa9y9LL._SX679_.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 5999,
+      "totalItems": 1,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "As@12345",
+        "addresses": [
+          {
+            "name": "Jay",
+            "email": "jay@gmail.com",
+            "phone": "09000000560",
+            "street": "MP Nagar zone 1",
+            "city": "Bhopal",
+            "state": "Madhya Pradesh",
+            "pinCode": "452010"
+          },
+          {
+            "name": "Jarrys",
+            "email": "Jys@gmail.com",
+            "phone": "9495549390",
+            "street": "New Height Area 12th cross",
+            "city": "Bangalore",
+            "state": "Karnataka",
+            "pinCode": "560002"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Jay",
+        "email": "jay@gmail.com",
+        "phone": "09000000560",
+        "street": "MP Nagar zone 1",
+        "city": "Bhopal",
+        "state": "Madhya Pradesh",
+        "pinCode": "452010"
+      },
+      "status": "Pending",
+      "id": 7
     }
   ]
 }
