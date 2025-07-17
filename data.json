@@ -1362,6 +1362,195 @@
       },
       "status": "Pending",
       "id": 5
+    },
+    {
+      "items": [
+        {
+          "title": "iPhone 16 Pro Max",
+          "description": "An apple mobile which is nothing like apple",
+          "price": 139900,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone16prohero-202409?wid=680&hei=528&fmt=p-jpg&qlt=95&.v=1725567335931",
+          "images": [
+            "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone16prohero-202409?wid=680&hei=528&fmt=p-jpg&qlt=95&.v=1725567335931",
+            "https://m.media-amazon.com/images/I/71ta3jyFvIL._SL1500_.jpg",
+            "https://m.media-amazon.com/images/I/81KoYONBafL._SL1500_.jpg",
+            "https://m.media-amazon.com/images/I/61+0gHhq1rL._SL1500_.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 139900,
+      "totalItems": 1,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "As@12345",
+        "addresses": [
+          {
+            "name": "Jay",
+            "email": "jay@gmail.com",
+            "phone": "09000000560",
+            "street": "MP Nagar zone 1",
+            "city": "Bhopal",
+            "state": "Madhya Pradesh",
+            "pinCode": "452010"
+          },
+          {
+            "name": "Jarrys",
+            "email": "Jys@gmail.com",
+            "phone": "9495549390",
+            "street": "New Height Area 12th cross",
+            "city": "Bangalore",
+            "state": "Karnataka",
+            "pinCode": "560002"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Jarrys",
+        "email": "Jys@gmail.com",
+        "phone": "9495549390",
+        "street": "New Height Area 12th cross",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pinCode": "560002"
+      },
+      "status": "Pending",
+      "id": 6
+    },
+    {
+      "items": [
+        {
+          "title": "MacBook Air",
+          "description": "2022 Apple MacBook Air Laptop with M2 chip: 13.6-inch Liquid Retina Display, 16GB RAM, 256GB SSD",
+          "price": 93990,
+          "discountPercentage": 9.8,
+          "rating": 4.6,
+          "stock": 55,
+          "brand": "Apple",
+          "category": "laptops",
+          "thumbnail": "https://m.media-amazon.com/images/I/710TJuHTMhL._SL1500_.jpg",
+          "images": [
+            "https://m.media-amazon.com/images/I/61b5Q8Uk86L._SL1500_.jpg",
+            "https://m.media-amazon.com/images/I/716FD22FGDL._SL1500_.jpg",
+            "https://m.media-amazon.com/images/I/61ST7uM4vpL._SL1500_.jpg",
+            "https://m.media-amazon.com/images/I/81SjldAN4ZL._SL1500_.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 93990,
+      "totalItems": 1,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "As@12345",
+        "addresses": [
+          {
+            "name": "Jay",
+            "email": "jay@gmail.com",
+            "phone": "09000000560",
+            "street": "MP Nagar zone 1",
+            "city": "Bhopal",
+            "state": "Madhya Pradesh",
+            "pinCode": "452010"
+          },
+          {
+            "name": "Jarrys",
+            "email": "Jys@gmail.com",
+            "phone": "9495549390",
+            "street": "New Height Area 12th cross",
+            "city": "Bangalore",
+            "state": "Karnataka",
+            "pinCode": "560002"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Jarrys",
+        "email": "Jys@gmail.com",
+        "phone": "9495549390",
+        "street": "New Height Area 12th cross",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pinCode": "560002"
+      },
+      "status": "Pending",
+      "id": 7
+    },
+    {
+      "items": [
+        {
+          "title": "iPhone 16",
+          "description": "An apple mobile which is nothing like apple",
+          "price": 89900,
+          "discountPercentage": 12.96,
+          "rating": 4.69,
+          "stock": 94,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone16hero-202409?wid=680&hei=528&fmt=p-jpg&qlt=95&.v=1723234230295",
+          "images": [
+            "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone16hero-202409?wid=680&hei=528&fmt=p-jpg&qlt=95&.v=1723234230295",
+            "https://m.media-amazon.com/images/I/61ThmxwUZCL._SL1500_.jpg",
+            "https://m.media-amazon.com/images/I/71708U5mylL._SL1500_.jpg",
+            "https://m.media-amazon.com/images/I/51kHsujlHZL._SL1500_.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 89900,
+      "totalItems": 1,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "As@12345",
+        "addresses": [
+          {
+            "name": "Jay",
+            "email": "jay@gmail.com",
+            "phone": "09000000560",
+            "street": "MP Nagar zone 1",
+            "city": "Bhopal",
+            "state": "Madhya Pradesh",
+            "pinCode": "452010"
+          },
+          {
+            "name": "Jarrys",
+            "email": "Jys@gmail.com",
+            "phone": "9495549390",
+            "street": "New Height Area 12th cross",
+            "city": "Bangalore",
+            "state": "Karnataka",
+            "pinCode": "560002"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Jay",
+        "email": "jay@gmail.com",
+        "phone": "09000000560",
+        "street": "MP Nagar zone 1",
+        "city": "Bhopal",
+        "state": "Madhya Pradesh",
+        "pinCode": "452010"
+      },
+      "status": "Pending",
+      "id": 8
     }
   ]
 }
